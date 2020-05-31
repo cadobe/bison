@@ -1,1 +1,6 @@
 This is an Tensorflow impletementation of BISON
+## Data Preprocess
+### Example command
+```
+mpirun -np 8 python preprocessor_multipreprocess_msmarco_doc.py --task_name=BISON --data_dir=your_data_folder_path --data_file=your_data_file_name --data_line_count=your_data_line_count --output_dir=your_output_folder_path --vocab_file=your_vocab_file --full_word_idf_file=your_idf_file --default_idf=your_default_idf --do_lower_case=True --max_seq_length_query=20 --max_seq_length_url=30 --max_seq_length_title=30 --label_col=0 --src_col=2 --url_col=4 --title_col=5 --BM25_K1=0.25 --BM25_B=0.4 --BM25_AVGDL_Q=6 --BM25_AVGDL_D=25
+```
