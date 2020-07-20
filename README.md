@@ -1,5 +1,5 @@
 # BISON : BM25-weighted Self-Attention Network for Multi-Fields Document Search
-This is the impletement of paper BISON : BM25-weighted Self-Attention Network for Multi-Fields Document Search. Take MS Marco Document Ranking task as an example.
+This is the impletement of paper BISON : BM25-weighted Self-Attention Network for Multi-Fields Document Search https://arxiv.org/abs/2007.05186. Taking MS Marco Document Ranking task as an example.
 
 ## Getting Started
 This version is built with a distributed training with horovod approach
